@@ -11,18 +11,18 @@ teste2:-
     Caminho = [[1,1]],
     movimentar(Pos_inicial,Goal,Universo, Caminho).
 
-teste4:-
-    Pos_inicial = [3,2],
-    Goal = [1,2],
-    Universo = [3,2],
-    Caminho = [[2,2]],
-    movimentar(Pos_inicial,Goal,Universo, Caminho).
-
 teste3:-
     Pos_inicial = [3,2],
     Goal = [1,2],
     Universo = [3,2],
     Caminho = [],
+    movimentar(Pos_inicial,Goal,Universo, Caminho).
+
+teste4:-
+    Pos_inicial = [3,2],
+    Goal = [1,2],
+    Universo = [3,2],
+    Caminho = [[2,2]],
     movimentar(Pos_inicial,Goal,Universo, Caminho).
 
 movimentar([Xa,Ya], G, U, C):- 
